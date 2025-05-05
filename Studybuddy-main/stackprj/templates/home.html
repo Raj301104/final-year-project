@@ -1,0 +1,181 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="hero">
+    <div class="hero-content">
+        <h1 class="hero-title">We <span style="color: red">&hearts;</span> people who code</h1>
+        <p class="hero-paragraph">
+            Helping others can actually create the sense of meaning we're seeking.
+        </p>
+        <div class="hero-options">
+           
+            <a href="{% url 'stackbase:question-lists' %}" class="btn btn-developers" style="margin-left: 5px;"><b>Latest Questions</b></a>
+        </div>
+    </div>
+</section>
+
+
+<section class="for-developers">
+   <div class="container">
+       <div class="section-head">
+           <h2 class="section-title"> "Knowledge is power. Sharing knowledge is the key to unlocking that power."
+           </h2>
+           <div class="section-line"></div>
+           <p class="section-description">Studybuddy is an open community for anyone that codes. We help you get answers to your toughest coding questions, share knowledge with your coworkers in private, and find your next dream job.
+           </p>
+       </div>
+       <div class="options">
+           <div class="option">
+               <div class="option-icon">
+                   <img src="https://cdn.sstatic.net/Img/home/public-qa.svg?v=d82acaa7df9f" alt="Public Q & A">
+               </div>
+               <div class="option-title">
+                   Public Q&A
+               </div>
+               <div class="option-description">
+                   Get answers from your community and share your knowledge with others.
+                   
+               </div>
+               
+           </div>
+           <div class="option">
+               <div class="option-icon">
+                   <img src="https://cdn.sstatic.net/Img/home/private-qa.svg?v=2c1de180b6d7" alt="Private Q & A">
+               </div> 
+               <div class="option-title">
+                   Knowledge Exchange
+               </div>
+               <div class="option-description">
+                Knowledge can only be volunteered it cannot be conscripted.
+               </div>
+             
+           </div>
+           <div class="option">
+               <div class="option-icon">
+                   <img src="https://cdn.sstatic.net/Img/home/jobs.svg?v=931d6c0863ee" alt="Browse jobs">
+               </div>
+               <div class="option-title">
+                   Public Q&A
+               </div>
+               <div class="option-description">
+                   Find the right job through high quality listings and search for roles based on title, technology stack, salary, location, and more.
+
+
+               </div>
+              
+           </div>
+       </div>
+   </div>
+</section>
+
+
+
+
+<section class="teams">
+    <div class="container">
+       
+        </div>
+
+
+        <div class="teams-footer">
+          
+        </div>
+
+
+    </div>
+</section>
+
+
+
+<section class="questions">
+    <div class="container">
+       <div class="questions-content">
+           <div class="questions-header">
+               <h3 class="question-title">Questions are everywhere, But answers are Here</h3>
+           </div>
+           <div class="questions-body">
+               <div class="questions-body-items">
+                   <div class="questions-body-item" data-id="0">
+                       <img src="https://cdn.sstatic.net/Img/home/ask-a-question.svg?v=f4f2050b0297" alt="" class="question-item-icon">
+                       <div class="question-item-text">Ask a question</div>
+                       <div class="question-arrow-right"></div>
+                   </div>
+                   <div class="questions-body-item"  data-id="1">
+                       <img src="https://cdn.sstatic.net/Img/home/votes.svg?v=748a8f48a8e2" alt="" class="question-item-icon">
+                       <div class="question-item-text">Vote on everything</div>
+                       <div class="question-arrow-right"></div>
+                   </div >
+                   <div class="questions-body-item"  data-id="2">
+                       <img src="https://cdn.sstatic.net/Img/home/answer.svg?v=4cd8048a676c" alt="" class="question-item-icon">
+                       <div class="question-item-text">Answer questions</div>
+                       <div class="question-arrow-right"></div>
+                   </div>
+               </div>
+               <div class="questions-body-item-content">
+                   <img src="https://cdn.sstatic.net/Img/home/illo-feats-vote.svg?v=9d2eb0efdc17" alt="" class="question-item-content-img">
+                   <h4 class="question-item-content-text">
+                       Accept the answer which solved your problem to let others benefit from the valuable information.
+                   </h4>
+                   <a href="{% url 'register' %}" class="btn btn-orange question-item-content-btn">Create an account</a>
+               </div>
+               <div class="questions-body-items">
+                   <div class="questions-body-item"  data-id="3">
+                       <img src="https://cdn.sstatic.net/Img/home/tags.svg?v=913379eb09eb" alt="" class="question-item-icon">
+                       <div class="question-item-text">Tag your question</div>
+                       <div class="question-arrow-left"></div>
+                   </div>
+                   <div class="questions-body-item"  data-id="4">
+                       <img src="https://cdn.sstatic.net/Img/home/accept.svg?v=27d5be078970" alt="" class="question-item-icon">
+                       <div class="question-item-text">Accept a answer</div>
+                       <div class="question-arrow-left"></div>
+                   </div>
+                   <div class="questions-body-item"  data-id="5">
+                       <img src="https://cdn.sstatic.net/Img/home/get-recognized.svg?v=3b339d9aa10c" alt="" class="question-item-icon">
+                       <div class="question-item-text">Get recognized</div>
+                       <div class="question-arrow-left"></div>
+                   </div>
+               </div>
+           </div>
+           
+           <section class="for-businesses">
+            <div class="container">
+               
+        
+        
+        
+                <div class="options">
+                    <div class="option">
+                        <div class="option-icon">
+                            <img src="https://cdn.sstatic.net/Img/home/private-questions.svg?v=a4f1cfb08f7e" alt="Private Q&A">
+                        </div>
+                        <div class="option-description">
+                            Quickly find and share internal knowledge 
+                        </div>
+                    </div>
+                    <div class="option">
+                        <div class="option-icon">
+                            <img src="https://cdn.sstatic.net/Img/home/find-candidate.svg?v=9099aa106ad3" alt="Talent solutions">
+                        </div>
+                        <div class="option-description">
+                            Get Quick solutions from community
+        
+        
+                        </div>
+                    </div>
+                    <div class="option">
+                        <div class="option-icon">
+                            <img src="https://cdn.sstatic.net/Img/home/accelerate.svg?v=9d4c2786ff02" alt=" Advertising platform">
+                        </div>
+                        <div class="option-description">
+                            Accelerate the learning 
+                        </div>
+                    </div>
+                </div>
+        
+        
+            </div>
+        </section>
+       </div>
+    </div>
+</section>
+
+{% endblock content %}
